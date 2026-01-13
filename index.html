@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Игорь Явченко - веб-разработчик, предприниматель</title>
+  <title>Игорь Явченко - веб-разработчик, фрилансер</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="navbar">
+  <div class="navbar container">
     <img src="images/logo.svg" alt="Logo">
     <nav class="navigation">
       <ul class="nav-list">
@@ -22,5 +23,44 @@
       </ul>
     </nav>
   </div>
+  <!-- ./navbar -->
+
+  <header class="header container">
+    <img src="images/avatar.png" alt="Явченко Игорь" class="header-photo">
+    <!-- /.header-photo -->
+    <div class="header-text">
+      <strong class="header-strong">Привет 👋</strong> <br> 
+      <h1 class="header-heading">
+        <span class="header-primary"> Я фронтенд-разработчик и веб-дизайнер</span> <br>
+        Меня зовут Игорь Явченко и я делаю сайты для людей и компаний
+      </h1>
+      <div class="header-links">
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="" class="social-link"><img src="images/icons/linkedin.svg" alt="linkedin" class="social-logo"></a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-link"><img src="images/icons/twitter.svg" alt="twitter" class="social-logo"></a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-link"><img src="images/icons/github.svg" alt="github" class="social-logo"></a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-link"><img src="images/icons/stackoverflow.svg" alt="stackoverflow" class="social-logo"></a>
+          </li>
+          <li class="social-item">
+            <a href="" class="social-link"><img src="images/icons/youtube.svg" alt="youtube" class="social-logo"></a>
+          </li>
+        </ul>
+        <a href="#" class="cv-download" download>
+          <img src="images/icons/download.svg" alt="download-icon" class="cv-icon">
+          <span class="cv-text">Скачать резюме</span>
+        </a>
+      </div>
+      <!-- /.header-links -->
+    </div>
+    <!-- /.header-text -->
+  </header>
+  <!-- /.header -->
 </body>
 </html>
